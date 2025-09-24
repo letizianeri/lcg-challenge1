@@ -1,0 +1,20 @@
+.helvetica {
+    font-family: "Helvetica Neue";
+}
+
+.script {
+    font-family: "sloop-script-one", sans-serif;
+    font-weight: lighter;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3.5em
+}

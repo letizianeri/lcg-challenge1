@@ -1,5 +1,6 @@
 body {
   background-image: url("./assets/sfondo-portfolio.jpeg");
+  background-position: center;
 }
 
 .helvetica {
@@ -21,7 +22,11 @@ h1 {
 }
 
 h2 {
-    font-size: 7em;
+    font-size: 1em;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: -120px;
 }
 
 .h1, .script {
@@ -32,3 +37,45 @@ h2 {
     position: relative;
     top: 20px;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-container {
+    position: relative;
+    text-align: center;
+  /*  color: aliceblue; */
+    bottom: 0px;
+    filter: brightness(100%);
+    transition: filter 0.5s, bottom 0.5s;
+}
+
+.icon-container:hover {
+    filter: brightness(20%);
+    position: relative;
+    bottom: 30px;
+}
+
+.icon-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+
+.icon-text:hover {
+    visibility: visible;
+}
+
+.icona {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    position: relative;
+}
+

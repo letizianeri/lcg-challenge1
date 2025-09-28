@@ -1,0 +1,31 @@
+body {
+  background-image: url("./assets/sfondo1.jpg");
+  background-size: cover;
+}
+
+.helvetica {
+    font-family: "Helvetica Neue";
+}
+
+.script {
+    font-family: "sloop-script-one", sans-serif;
+    font-weight: lighter;
+}
+
+.heading {
+    color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+.h1, .script {
+    color: #39f837;
+    font-size: 1.7em;
+    margin-left: -55px;
+    margin-right: -2px;
+    position: relative;
+    top: 11px;
+}
